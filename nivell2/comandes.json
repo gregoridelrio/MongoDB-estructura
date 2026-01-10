@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "696289a98261adfb26e5bb7b"
+  },
+  "client_id": {
+    "$oid": "695e2fa2af336f0d3150d27e"
+  },
+  "botiga_id": {
+    "$oid": "6962859b8261adfb26e5bb61"
+  },
+  "data_hora_realitzacio": {
+    "$date": "2026-01-05T17:30:00.000Z"
+  },
+  "tipus": "domicili",
+  "preu_total": 15.5,
+  "nota": "No tenim ascensor",
+  "productes": [
+    {
+      "producte_id": {
+        "$oid": "695e343aaf336f0d3150d28c"
+      },
+      "quantitat": 1,
+      "preu_unitari": 10.5
+    },
+    {
+      "producte_id": {
+        "$oid": "695e343aaf336f0d3150d28f"
+      },
+      "quantitat": 2,
+      "preu_unitari": 2.5
+    }
+  ],
+  "repartiment": {
+    "repartidor_id": {
+      "$oid": "6962864f8261adfb26e5bb67"
+    },
+    "data_hora_lliurament": {
+      "$date": "2026-01-05T18:05:00.000Z"
+    }
+  }
+}]

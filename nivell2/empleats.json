@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "6962864f8261adfb26e5bb66"
+  },
+  "nom": "Martina",
+  "cognoms": "Garcia Junyent",
+  "NIF": "88888880A",
+  "telefon": "777888444",
+  "rol": "cuiner",
+  "botiga_id": {
+    "$oid": "6962859b8261adfb26e5bb61"
+  }
+},
+{
+  "_id": {
+    "$oid": "6962864f8261adfb26e5bb67"
+  },
+  "nom": "Pep",
+  "cognoms": "Lopez Martinez",
+  "NIF": "88888880B",
+  "telefon": "777888333",
+  "rol": "repartidor",
+  "botiga_id": {
+    "$oid": "6962859b8261adfb26e5bb61"
+  }
+},
+{
+  "_id": {
+    "$oid": "6962864f8261adfb26e5bb68"
+  },
+  "nom": "Oriol",
+  "cognoms": "Garcia Perez",
+  "NIF": "88888880Z",
+  "telefon": "777888000",
+  "rol": "cuiner",
+  "botiga_id": {
+    "$oid": "6962859b8261adfb26e5bb62"
+  }
+},
+{
+  "_id": {
+    "$oid": "6962864f8261adfb26e5bb69"
+  },
+  "nom": "Jordi",
+  "cognoms": "Fradera Ortiz",
+  "NIF": "88888880Y",
+  "telefon": "666888333",
+  "rol": "repartidor",
+  "botiga_id": {
+    "$oid": "6962859b8261adfb26e5bb62"
+  }
+}]

@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "695e343aaf336f0d3150d28c"
+  },
+  "nom": "Pizza Margarita",
+  "descripcio": "tomaquet, perfil, formatge",
+  "imatge": "margarita.png",
+  "preu": 10.5,
+  "categoria": "Massa fina"
+},
+{
+  "_id": {
+    "$oid": "695e343aaf336f0d3150d28d"
+  },
+  "nom": "Pizza 3 Formatges",
+  "descripcio": "roquefort, cheddar, gouda",
+  "imatge": "formatges.png",
+  "preu": 12.5,
+  "categoria": "Massa gruixuda"
+},
+{
+  "_id": {
+    "$oid": "695e343aaf336f0d3150d28e"
+  },
+  "nom": "Cheeseburguer",
+  "descripcio": "300 gr vaca amb formatge cheddar",
+  "imatge": "cheeseburguer.png",
+  "preu": 13.5
+},
+{
+  "_id": {
+    "$oid": "695e343aaf336f0d3150d28f"
+  },
+  "nom": "Fanta Taronja",
+  "descripcio": "refresc",
+  "imatge": "fantataronja.png",
+  "preu": 2.5
+}]

@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "695e2fa2af336f0d3150d27e"
+  },
+  "nom": "Josep",
+  "cognoms": "Garcia Perez",
+  "adreca": {
+    "carrer": "Carrer Gran Via",
+    "numero": "1",
+    "pis": "3 A",
+    "codi_postal": "08001",
+    "localitat": "Barcelona",
+    "provincia": "Barcelona"
+  },
+  "telefon": "666555444"
+},
+{
+  "_id": {
+    "$oid": "695e2fccaf336f0d3150d280"
+  },
+  "nom": "Maria",
+  "cognoms": "Martinez Rodriguez",
+  "adreca": {
+    "carrer": "Carrer Petita Via",
+    "numero": "2",
+    "pis": "4 B",
+    "codi_postal": "08002",
+    "localitat": "Badalona",
+    "provincia": "Barcelona"
+  },
+  "telefon": "666888777"
+}]

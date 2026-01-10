@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "6962859b8261adfb26e5bb61"
+  },
+  "adreca": "Gran via 1",
+  "codi_postal": "08001",
+  "localitat": "Barcelona",
+  "provincia": "Barcelona"
+},
+{
+  "_id": {
+    "$oid": "6962859b8261adfb26e5bb62"
+  },
+  "adreca": "Via Campana 2",
+  "codi_postal": "08502",
+  "localitat": "Hospitalet",
+  "provincia": "Barcelona"
+}]
