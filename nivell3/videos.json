@@ -1,0 +1,47 @@
+[{
+  "_id": {
+    "$oid": "6963c90cf9a3543300210f98"
+  },
+  "publicat_per": {
+    "$oid": "696292ce5451eb236b3944f0"
+  },
+  "titol": "Video de futbol",
+  "descripcio": "Recopilacio de jugades de futbol",
+  "grandaria": 110.5,
+  "nom_arxiu": "video123.mp4",
+  "durada": 240,
+  "thumbnail": "thumbnail1.jpg",
+  "reproduccions": 1000,
+  "likes": 120,
+  "dislikes": 5,
+  "estat": "public",
+  "etiquetes": [
+    "esport",
+    "futbol"
+  ],
+  "data_publicacio": {
+    "$date": "2026-01-11T17:30:00.000Z"
+  },
+  "reaccio": [
+    {
+      "usuari_id": {
+        "$oid": "696292ce5451eb236b3944ef"
+      },
+      "data": {
+        "$date": "2026-01-11T18:00:00.000Z"
+      },
+      "tipus": "like"
+    }
+  ],
+  "comentaris": [
+    {
+      "usuari_id": {
+        "$oid": "696292ce5451eb236b3944ef"
+      },
+      "comentari": "Bon video!",
+      "data": {
+        "$date": "2026-01-11T19:00:00.000Z"
+      }
+    }
+  ]
+}]

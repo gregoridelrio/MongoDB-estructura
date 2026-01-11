@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "696294355451eb236b3944fa"
+  },
+  "usuari_id": {
+    "$oid": "696292ce5451eb236b3944ef"
+  },
+  "nom": "Canal Manel",
+  "descripcio": "Videos personals",
+  "data_creacio": {
+    "$date": "2026-01-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "696294635451eb236b3944fe"
+  },
+  "usuari_id": {
+    "$oid": "696292ce5451eb236b3944f0"
+  },
+  "nom": "Canal Marta",
+  "descripcio": "Videos de esports",
+  "data_creacio": {
+    "$date": "2026-01-06T00:00:00.000Z"
+  }
+}]

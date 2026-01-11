@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "696292ce5451eb236b3944ef"
+  },
+  "email": "manel@email.com",
+  "contrasenya": "a12345",
+  "usuari": "manel321",
+  "data_naixement": {
+    "$date": "2000-01-01T00:00:00.000Z"
+  },
+  "sexe": "Home",
+  "pais": "Espanya",
+  "codi_postal": "08001"
+},
+{
+  "_id": {
+    "$oid": "696292ce5451eb236b3944f0"
+  },
+  "email": "marta@email.com",
+  "contrasenya": "b54321",
+  "usuari": "marta123",
+  "data_naixement": {
+    "$date": "2002-02-02T00:00:00.000Z"
+  },
+  "sexe": "Dona",
+  "pais": "Espanya",
+  "codi_postal": "08002"
+}]
