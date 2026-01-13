@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "695e25fcaf336f0d3150d25b"
+  },
+  "empleat": "Marta Garcia",
+  "id_ulleres": {
+    "$oid": "695e20e2af336f0d3150d24a"
+  },
+  "data_venda": {
+    "$date": "2025-12-31T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "695e2649af336f0d3150d262"
+  },
+  "empleat": "Romina Perez",
+  "id_ulleres": {
+    "$oid": "695e2145af336f0d3150d24e"
+  },
+  "data_venda": {
+    "$date": "2026-01-02T14:30:00.000Z"
+  }
+}]
