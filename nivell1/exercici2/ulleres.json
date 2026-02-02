@@ -1,32 +1,64 @@
 [{
   "_id": {
     "$oid": "695e20e2af336f0d3150d24a"
-  },
-  "marca": "Rayban",
-  "graduacio_dreta": -1.5,
-  "graduacio_esquerra": -1.5,
+  }, 
+  "marca": "Ray-Ban",
   "tipus_muntura": "pasta",
   "color_muntura": "negre",
-  "color_vidre_dreta": "transparent",
-  "color_vidre_esquerra": "transparent",
-  "preu": "150",
-  "proveidor_id": {
-    "$oid": "695d06ef32e5b52fa529ef62"
+  "graduacio": {
+    "dreta": 0,
+    "esquerre": 0
+  },
+  "color_vidres": {
+    "dreta": "negre",
+    "esquerra": "negre"
+  },
+  "preu": 155,
+  "proveidor": { 
+    "nom": "Nom Optica 2",
+    "adreca": {
+     "carrer": "Carrer Petit",
+     "numero": "2",
+     "pis": "2",
+     "porta": "B",
+     "ciutat": "Barcelona",
+     "codi_postal": "08001",
+     "pais": "Espanya"
+    },
+    "telefon": "937990023",
+    "fax": "937221134",
+    "nif": "A12345679"
   }
 },
 {
   "_id": {
     "$oid": "695e2145af336f0d3150d24e"
-  },
+  }, 
   "marca": "Kayros",
-  "graduacio_dreta": -1,
-  "graduacio_esquerra": -0.5,
-  "tipus_muntura": "metalica",
-  "color_muntura": "Daurat",
-  "color_vidre_dreta": "transparent",
-  "color_vidre_esquerra": "transparent",
-  "preu": "120",
-  "proveidor_id": {
-    "$oid": "695d09df32e5b52fa529ef77"
+  "tipus_muntura": "metallica",
+  "color_muntura": "daurada",
+  "graduacio": {
+    "dreta": -1,
+    "esquerra": -0.5
+  },
+  "color_vidres": {
+    "dreta": "transparent",
+    "esquerra": "transparent"
+  },  
+  "preu": 120,
+  "proveidor": { 
+    "nom": "Nom Optica",
+    "adreca": {
+      "carrer": "Carrer Gran",
+      "numero": "1",
+      "pis": "1",
+      "porta": "A",
+      "ciutat": "Barcelona",
+      "codi_postal": "08001",
+      "pais": "Espanya"
+    },
+    "telefon": "937990022",
+    "fax": "937221133",
+    "nif": "A12345678"
   }
 }]
