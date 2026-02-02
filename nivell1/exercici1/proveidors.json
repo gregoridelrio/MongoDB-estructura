@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "695d06ef32e5b52fa529ef62"
+  },
+  "nom": "Nom Optica",
+  "adreca": {
+    "carrer": "Carrer Gran",
+    "numero": "1",
+    "pis": "1",
+    "porta": "A",
+    "ciutat": "Barcelona",
+    "codi_postal": "08001",
+    "pais": "Espanya"
+  },
+  "telefon": "937990022",
+  "fax": "937221133",
+  "nif": "A12345678"
+},
+{
+  "_id": {
+    "$oid": "695d09df32e5b52fa529ef77"
+  },
+  "nom": "Nom Optica 2",
+  "adreca": {
+    "carrer": "Carrer Petit",
+    "numero": "2",
+    "pis": "2",
+    "porta": "B",
+    "ciutat": "Barcelona",
+    "codi_postal": "08001",
+    "pais": "Espanya"
+  },
+  "telefon": "937990023",
+  "fax": "937221134",
+  "nif": "A12345679"
+}]

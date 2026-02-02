@@ -9,7 +9,30 @@
   "data_registre": {
     "$date": "2025-03-15T00:00:00.000Z"
   },
-  "recomanat_per": null
+  "recomanat_per": null,
+  "compres": [
+    {
+    "proveidor_id": { "$oid": "695d06ef32e5b52fa529ef62" },
+    "empleat_id": { "$oid": "695e25fcaf336f0d3150d25b" },
+    "data_compra": {
+    "$date": "2025-03-16T00:00:00.000Z"
+    },
+    "ulleres": {
+      "marca": "Ray-Ban",
+      "graduacio": {
+         "dreta": 0,
+         "esquerre": 0
+      },
+      "color_vidres": {
+         "dreta": "negre",
+         "esquerra": "negre"
+      },
+       "tipus_muntura": "pasta",
+       "color_muntura": "negre",
+       "preu": 155
+      }
+    }
+  ]
 },
 {
   "_id": {
@@ -24,5 +47,28 @@
   },
   "recomanat_per": {
     "$oid": "695e23b7af336f0d3150d251"
-  }
+  },
+  "compres": [
+    {
+    "proveidor_id": { "$oid": "695d09df32e5b52fa529ef77" },
+    "empleat_id": { "$oid": "695e2649af336f0d3150d262" },
+    "data_compra": {
+    "$date": "2025-03-16T00:00:00.000Z"
+    },
+    "ulleres": {
+      "marca": "Kayros",
+      "graduacio": {
+         "dreta": -1,
+         "esquerre": -0.5
+      },
+      "color_vidres": {
+         "dreta": "transparent",
+         "esquerra": "transparent"
+      },
+       "tipus_muntura": "metallica",
+       "color_muntura": "daurat",
+       "preu": 120
+      }
+    }
+  ]
 }]
