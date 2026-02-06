@@ -1,26 +1,60 @@
-[{
-  "_id": {
-    "$oid": "696294355451eb236b3944fa"
+[
+  {
+    "_id": {
+      "$oid": "696294355451eb236b3944fa"
+    },
+    "propietari": {
+      "usuari_id": {
+        "$oid": "696292ce5451eb236b3944ef"
+      },
+      "nom_usuari": "manel321"
+    },
+    "nom": "Canal Manel",
+    "descripcio": "Videos personals",
+    "data_creacio": {
+      "$date": "2026-01-05T00:00:00.000Z"
+    },
+    "subscriptors": [
+      {
+        "usuari_id": {
+          "$oid": "696292ce5451eb236b3944f0"
+        },
+        "nom_usuari": "marta123",
+        "data_subscripcio": {
+          "$date": "2026-01-10T00:00:00.000Z"
+        }
+      }
+    ],
+    "numero_subscriptors": 1,
+    "numero_videos": 5
   },
-  "usuari_id": {
-    "$oid": "696292ce5451eb236b3944ef"
-  },
-  "nom": "Canal Manel",
-  "descripcio": "Videos personals",
-  "data_creacio": {
-    "$date": "2026-01-05T00:00:00.000Z"
+  {
+    "_id": {
+      "$oid": "696294635451eb236b3944fe"
+    },
+    "propietari": {
+      "usuari_id": {
+        "$oid": "696292ce5451eb236b3944f0"
+      },
+      "nom_usuari": "marta123"
+    },
+    "nom": "Canal Marta",
+    "descripcio": "Videos de esports",
+    "data_creacio": {
+      "$date": "2026-01-06T00:00:00.000Z"
+    },
+    "subscriptors": [
+      {
+        "usuari_id": {
+          "$oid": "696292ce5451eb236b3944ef"
+        },
+        "nom_usuari": "manel321",
+        "data_subscripcio": {
+          "$date": "2026-01-10T00:00:00.000Z"
+        }
+      }
+    ],
+    "numero_subscriptors": 1,
+    "numero_videos": 3
   }
-},
-{
-  "_id": {
-    "$oid": "696294635451eb236b3944fe"
-  },
-  "usuari_id": {
-    "$oid": "696292ce5451eb236b3944f0"
-  },
-  "nom": "Canal Marta",
-  "descripcio": "Videos de esports",
-  "data_creacio": {
-    "$date": "2026-01-06T00:00:00.000Z"
-  }
-}]
+]
