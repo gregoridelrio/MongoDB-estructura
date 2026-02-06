@@ -3,6 +3,7 @@
     "$oid": "695e343aaf336f0d3150d28c"
   },
   "nom": "Pizza Margarita",
+  "tipus": "pizza",
   "descripcio": "tomaquet, perfil, formatge",
   "imatge": "margarita.png",
   "preu": 10.5,
@@ -13,6 +14,7 @@
     "$oid": "695e343aaf336f0d3150d28d"
   },
   "nom": "Pizza 3 Formatges",
+  "tipus": "pizza",
   "descripcio": "roquefort, cheddar, gouda",
   "imatge": "formatges.png",
   "preu": 12.5,
@@ -23,6 +25,7 @@
     "$oid": "695e343aaf336f0d3150d28e"
   },
   "nom": "Cheeseburguer",
+  "tipus": "hamburguesa",
   "descripcio": "300 gr vaca amb formatge cheddar",
   "imatge": "cheeseburguer.png",
   "preu": 13.5
@@ -32,6 +35,7 @@
     "$oid": "695e343aaf336f0d3150d28f"
   },
   "nom": "Fanta Taronja",
+  "tipus": "beguda",
   "descripcio": "refresc",
   "imatge": "fantataronja.png",
   "preu": 2.5

@@ -4,7 +4,7 @@
   },
   "nom": "Martina",
   "cognoms": "Garcia Junyent",
-  "NIF": "88888880A",
+  "nif": "88888880A",
   "telefon": "777888444",
   "rol": "cuiner",
   "botiga_id": {
@@ -17,7 +17,7 @@
   },
   "nom": "Pep",
   "cognoms": "Lopez Martinez",
-  "NIF": "88888880B",
+  "nif": "88888880B",
   "telefon": "777888333",
   "rol": "repartidor",
   "botiga_id": {
@@ -30,7 +30,7 @@
   },
   "nom": "Oriol",
   "cognoms": "Garcia Perez",
-  "NIF": "88888880Z",
+  "nif": "88888880Z",
   "telefon": "777888000",
   "rol": "cuiner",
   "botiga_id": {
@@ -43,7 +43,7 @@
   },
   "nom": "Jordi",
   "cognoms": "Fradera Ortiz",
-  "NIF": "88888880Y",
+  "nif": "88888880Y",
   "telefon": "666888333",
   "rol": "repartidor",
   "botiga_id": {

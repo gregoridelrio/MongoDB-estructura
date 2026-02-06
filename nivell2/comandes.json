@@ -2,40 +2,142 @@
   "_id": {
     "$oid": "696289a98261adfb26e5bb7b"
   },
+  "numero_comanda": "1",
+  "client": {
   "client_id": {
     "$oid": "695e2fa2af336f0d3150d27e"
+   },
+   "nom": "Josep",
+   "cognoms": "Garcia Perez",
+   "adreca": {
+   "carrer": "Carrer Gran Via",
+   "numero": "1",
+   "pis": "3 A",
+   "codi_postal": "08001",
+   "localitat": "Barcelona",
+   "provincia": "Barcelona"
   },
+  "telefon": "666555444"
+  },
+  "botiga": {
   "botiga_id": {
     "$oid": "6962859b8261adfb26e5bb61"
+  },
+  "nom": "Food for couch potates",
+  "adreca": "Gran via 1",
+  "codi_postal": "08001",
+  "localitat": "Barcelona",
+  "provincia": "Barcelona"
   },
   "data_hora_realitzacio": {
     "$date": "2026-01-05T17:30:00.000Z"
   },
   "tipus": "domicili",
-  "preu_total": 15.5,
   "nota": "No tenim ascensor",
   "productes": [
     {
       "producte_id": {
         "$oid": "695e343aaf336f0d3150d28c"
       },
+      "nom": "Pizza Margarita",
+      "tipus": "pizza",
+      "descripcio": "tomaquet, pernil, formatge",
+      "imatge": "margarita.png",
+      "preu_unitari": 10.5,
+      "categoria": "Massa fina",
       "quantitat": 1,
-      "preu_unitari": 10.5
+      "subtotal": 10.5
     },
     {
       "producte_id": {
         "$oid": "695e343aaf336f0d3150d28f"
       },
-      "quantitat": 2,
-      "preu_unitari": 2.5
+        "nom": "Fanta Taronja",
+        "tipus": "beguda",
+        "descripcio": "refresc",
+        "imatge": "fantataronja.png",
+        "preu_unitari": 2.5,
+        "quantitat": 2,
+        "subtotal": 5
     }
   ],
+  "preu_total": 15.5,
+  "estat": "entregat",
   "repartiment": {
     "repartidor_id": {
       "$oid": "6962864f8261adfb26e5bb67"
     },
+    "nom": "Pep",
+    "cognoms": "Lopez Martinez",
+    "telefon": "777888333",
     "data_hora_lliurament": {
       "$date": "2026-01-05T18:05:00.000Z"
     }
   }
+},
+{
+  "_id": {
+    "$oid": "696289a98261adfb26e5bb7c"
+  },
+  "numero_comanda": "2",
+  "client": {
+  "client_id": {
+    "$oid": "695e2fccaf336f0d3150d280"
+   },
+   "nom": "Maria",
+   "cognoms": "Martinez Rodriguez",
+   "adreca": {
+   "carrer": "Carrer Petita Via",
+    "numero": "2",
+    "pis": "4 B",
+    "codi_postal": "08002",
+    "localitat": "Badalona",
+    "provincia": "Barcelona"
+  },
+  "telefon": "666888777"
+  },
+  "botiga": {
+  "botiga_id": {
+    "$oid": "6962859b8261adfb26e5bb61"
+  },
+  "nom": "Food for couch potates",
+  "adreca": "Gran via 1",
+  "codi_postal": "08001",
+  "localitat": "Barcelona",
+  "provincia": "Barcelona"
+  },
+  "data_hora_realitzacio": {
+    "$date": "2026-01-05T18:30:00.000Z"
+  },
+  "tipus": "recollir",
+  "nota": "Ens pasarem a les 19:00",
+  "productes": [
+    {
+      "producte_id": {
+        "$oid": "695e343aaf336f0d3150d28e"
+      },
+      "nom": "Cheeseburguer",
+      "tipus": "hamburguesa",
+      "descripcio": "300 gr vaca amb formatge cheddar",
+      "imatge": "cheeseburguer.png",
+      "preu_unitari": 13.5,
+      "quantitat": 2,
+      "subtotal": 27
+    },
+    {
+      "producte_id": {
+        "$oid": "695e343aaf336f0d3150d28f"
+      },
+        "nom": "Fanta Taronja",
+        "tipus": "beguda",
+        "descripcio": "refresc",
+        "imatge": "fantataronja.png",
+        "preu_unitari": 2.5,
+        "quantitat": 2,
+        "subtotal": 5
+    }
+  ],
+  "preu_total": 32,
+  "estat": "per recollir",
+  "repartiment": null
 }]

@@ -2,6 +2,7 @@
   "_id": {
     "$oid": "6962859b8261adfb26e5bb61"
   },
+  "nom": "Food for couch potates",
   "adreca": "Gran via 1",
   "codi_postal": "08001",
   "localitat": "Barcelona",
@@ -11,6 +12,7 @@
   "_id": {
     "$oid": "6962859b8261adfb26e5bb62"
   },
+  "nom": "La central",
   "adreca": "Via Campana 2",
   "codi_postal": "08502",
   "localitat": "Hospitalet",
