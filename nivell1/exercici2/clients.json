@@ -1,42 +1,30 @@
-[{
-  "_id": {
-    "$oid": "695e23b7af336f0d3150d251"
+[
+  {
+    "_id": {
+      "$oid": "695e23b7af336f0d3150d251"
+    },
+    "nom": "Josep",
+    "adreca": "Carrer Gran Via, 123, 08001",
+    "telefon": "666555444",
+    "email": "josep@email.com",
+    "data_registre": {
+      "$date": "2025-03-15T00:00:00.000Z"
+    },
+    "recomanat_per": null
   },
-  "nom": "Josep",
-  "adreca": "Carrer Gran Via, 123, 08001",
-  "telefon": "666555444",
-  "email": "josep@email.com",
-  "data_registre": {
-    "$date": "2025-03-15T00:00:00.000Z"
-  },
-  "recomanat_per": null,
-  "compra": {
-     "ulleres_id": { "$oid": "695e20e2af336f0d3150d24a" },
-     "data_compra": { "$date": "2025-03-15T10:30:00.000Z" }
-  },
-  "venut_per" :{
-    "$oid": "695e25fcaf336f0d3150d25b"
+  {
+    "_id": {
+      "$oid": "695e2419af336f0d3150d253"
+    },
+    "nom": "Maria",
+    "adreca": "Carrer Petita Via, 321, 08002",
+    "telefon": "666333222",
+    "email": "maria@email.com",
+    "data_registre": {
+      "$date": "2025-04-01T00:00:00.000Z"
+    },
+    "recomanat_per": {
+      "$oid": "695e23b7af336f0d3150d251"
+    }
   }
-},
-{
-  "_id": {
-    "$oid": "695e2419af336f0d3150d253"
-  },
-  "nom": "Maria",
-  "adreca": "Carrer Petita Via, 321, 08002",
-  "telefon": "666333222",
-  "email": "maria@email.com",
-  "data_registre": {
-    "$date": "2025-04-01T00:00:00.000Z"
-  },
-  "recomanat_per": {
-    "$oid": "695e23b7af336f0d3150d251"
-  },
-  "compra": {
-     "ulleres_id": { "$oid": "695e2145af336f0d3150d24e" },
-     "data_compra": { "$date": "2025-04-02T10:30:00.000Z" }
-  },
-  "venut_per" :{
-    "$oid": "695e2649af336f0d3150d262"
-  }
-}]
+]
